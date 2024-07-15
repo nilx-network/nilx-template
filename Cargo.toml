@@ -2,7 +2,7 @@
 license = "MIT-0"
 authors = ["Parity Technologies <admin@parity.io>"]
 homepage = "https://substrate.io"
-repository = "https://github.com/paritytech/polkadot-sdk-parachain-template.git"
+repository = "https://github.com/paritytech/polkadot-sdk-nilx-template.git"
 edition = "2021"
 
 [workspace]

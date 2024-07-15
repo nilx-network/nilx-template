@@ -1,5 +1,5 @@
 [package]
-name = "parachain-template-runtime"
+name = "nilx-template-runtime"
 description = "A parachain runtime template built with Substrate and Cumulus, part of Polkadot Sdk. (polkadot v1.13.0)"
 version = "0.1.0"
 license = "Unlicense"
@@ -29,7 +29,7 @@ smallvec = "1.11.0"
 docify = "0.2.8"
 
 # Local
-pallet-parachain-template = { path = "../pallets/template", default-features = false, version = "0.1.0" }
+pallet-nilx-template = { path = "../pallets/template", default-features = false, version = "0.1.0" }
 
 # Substrate / FRAME
 frame-benchmarking = { version = "35.0.0", default-features = false, optional = true }
@@ -115,7 +115,7 @@ std = [
 	"pallet-balances/std",
 	"pallet-collator-selection/std",
 	"pallet-message-queue/std",
-	"pallet-parachain-template/std",
+	"pallet-nilx-template/std",
 	"pallet-session/std",
 	"pallet-sudo/std",
 	"pallet-timestamp/std",
@@ -159,7 +159,7 @@ runtime-benchmarks = [
 	"pallet-balances/runtime-benchmarks",
 	"pallet-collator-selection/runtime-benchmarks",
 	"pallet-message-queue/runtime-benchmarks",
-	"pallet-parachain-template/runtime-benchmarks",
+	"pallet-nilx-template/runtime-benchmarks",
 	"pallet-sudo/runtime-benchmarks",
 	"pallet-timestamp/runtime-benchmarks",
 	"pallet-xcm/runtime-benchmarks",
@@ -185,7 +185,7 @@ try-runtime = [
 	"pallet-balances/try-runtime",
 	"pallet-collator-selection/try-runtime",
 	"pallet-message-queue/try-runtime",
-	"pallet-parachain-template/try-runtime",
+	"pallet-nilx-template/try-runtime",
 	"pallet-session/try-runtime",
 	"pallet-sudo/try-runtime",
 	"pallet-timestamp/try-runtime",

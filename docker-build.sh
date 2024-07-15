@@ -1,0 +1,1 @@
+docker build . -t nilx-template --build-arg="HTTP_PROXY=http://192.168.3.18:7890" --build-arg="HTTPS_PROXY=http://192.168.3.18:7890"

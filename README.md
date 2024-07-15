@@ -8,9 +8,9 @@ modified to include dependencies required for registering this node as a **parat
 **parachain** to a **relay chain**.
 
 The stand-alone version of this template is hosted on the
-[Substrate Devhub Parachain Template](https://github.com/substrate-developer-hub/substrate-parachain-template/)
+[Substrate Devhub Parachain Template](https://github.com/substrate-developer-hub/substrate-nilx-template/)
 for each release of Polkadot. It is generated directly to the upstream
-[Parachain Template in Cumulus](https://github.com/paritytech/polkadot-sdk/tree/master/cumulus/parachain-template)
+[Parachain Template in Cumulus](https://github.com/paritytech/polkadot-sdk/tree/master/cumulus/nilx-template)
 at each release branch using the
 [Substrate Template Generator](https://github.com/paritytech/substrate-template-generator/).
 

@@ -73,5 +73,5 @@ jobs:
           swap-storage: false
 
       - name: Build the Dockerfile
-        run: docker build . -t polkadot-sdk-parachain-template
+        run: docker build . -t polkadot-sdk-nilx-template
         timeout-minutes: 90
